@@ -166,3 +166,49 @@ h1
     padding-left: 25%;
 }
 /* Image Gallery section */
+
+/* footer section */
+#footer
+{
+    background-color: #111;
+    width: 100%;
+}
+#footer .container
+{
+    margin: auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.social
+{
+    margin: 20px 0;
+}
+.social a
+{
+    color: white;
+    margin-right: 25px;
+    font-size: 22px;
+    text-decoration: none;
+}
+.first-content h2, .second-content h2
+{
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    color: white;
+}
+.text, .first-content p
+{
+    color: white;
+}
+#footer .container .content
+{
+    padding: 10px 20px;
+    color: white;
+}
+.second
+{
+    margin-left: 100px;
+}
+/* footer section */
