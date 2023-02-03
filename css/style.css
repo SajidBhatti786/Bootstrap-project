@@ -1,0 +1,168 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* navbar section */
+.navbar
+{
+    border-bottom: #e600e6 solid 5px;
+}
+.navbar-nav
+{
+    justify-content: right;
+    align-items: right;
+    align-self: right;
+}
+.navbar-brand
+{
+    color: #e600e6 !important;
+    font-size: 24px;
+}
+.nav-link
+{
+    text-transform: uppercase;
+}
+.nav-link:hover
+{
+    color: #990099;
+}
+.nav-item
+{
+    padding: 1 rem !important;
+    font-size: 1rem !important;
+}
+/* navbar section */
+
+/* header section */
+#header
+{
+    background: url("../images/header_bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+h1
+{
+    margin-top: 10px;
+}
+.row
+{
+    margin: 0px !important;
+}
+#header .overlay
+{
+    background-color: rgba(20, 0, 20, .4);
+    height: 100vh;
+}
+.btn-outline-secondary
+{
+    cursor: pointer;
+}
+.btn-outline-secondary:hover
+{
+    background-color: #990099;
+}
+/* header section */
+
+/* feature section */
+#feature i
+{
+    color:#990099;
+    cursor: pointer;
+}
+#feature h3:hover
+{
+    color: #990099;
+    cursor: pointer;
+}
+/* feature section */
+
+
+
+/* Our work section */
+#work
+{
+    background: url("../images/modal.jpg");
+    background-color: #990099;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#work i
+{
+    color:#990099;
+}
+/* Our work section */
+
+/* slider section */
+.carousel-caption h5, .carousel-caption p
+{
+    color: black;
+    font-size: 2rem;
+    background: transparent;
+    backdrop-filter: blur(5px) saturate(70%);
+
+
+}
+
+/* slideer section */
+
+
+/* history section */
+#history
+{
+    background-color: #f0f0f5;
+}
+.historyArea
+{
+    background-color: white;
+    height: 450px;
+    margin-right: -50px;
+    padding: 30px;
+}
+.historyImage img
+{
+    margin-top: 90px;
+    margin-left: -20px;
+    z-index: -40 !important;
+}
+/* history section */
+
+/* Image Gallery section */
+#gallery .col-md-3
+{
+    padding-left: 0;
+    padding-right: 0;
+}
+.imageContainer
+{
+    position: relative;
+    cursor: pointer;
+}
+.imgOverlay
+{
+    position: absolute;
+    left:0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(20, 0, 20);
+    opacity: 0;
+}
+.imageContainer:hover .imgOverlay
+{
+    opacity: .7;
+}
+.imgText
+{
+    position: absolute;
+    color: white;
+    font-weight: bolder;
+    padding-top: 25%;
+    padding-left: 25%;
+}
+/* Image Gallery section */
